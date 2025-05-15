@@ -1,5 +1,5 @@
 const express = require("express")
-const connectDB = require("./config/dbconfig")
+const connectDB = require("./config/dbConfig")
 require ('dotenv').config()
 const colors = require('colors')
 const errorHandler = require("./middleware/errorHandler")
